@@ -15,14 +15,18 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <picture>
+    <picture>\
+      <!-- start of landscape -->
       <source media="(max-width:320px)" srcset="images/museum-320_x_180.png, images/museum-640_x_320.jfif 2x, images/museum-960_x_640.jfif 3x">
       <source media="(max-width:480px)" srcset="images/museum-480_x_270.png, images/museum-960_x_480.jfif 2x, images/museum-1440_x_960.jfif 3x">
       <source media="(max-width:720px)" srcset="images/museum-720_x_405.png, images/museum-1440_x_720.jfif 2x, images/museum-2160_x_1440.jfif 3x">
       <source media="(max-width:960px)" srcset="images/museum-960_x_480.jfif, images/museum-2160_x_1440.jfif 2x,images/museum-2880_x_1920.jfif 3x">
+      <!-- end of landscape -->
+      <!-- start of square picture -->
       <source media="(min-width:960px)" srcset="images/museum-480_x_480.jfif, images/museum-960_x_960.jfif 2x, images/museum-1440_x_1440.jfif 3x">
       <source media="(min-width:1280px)" srcset="images/museum-640_x_640.jfif, images/museum-1280_x_1280.jfif 2x, images/museum-1920_x_1920.jfif 3x">
       <source media="(min-width:1600px)" srcset="images/museum-800_x_800.jfif, images/museum-1600_x_1600.jfif 2x, images/museum-2400_x_2400.jfif 3x">
+      <!-- end of square picture -->
       <img src="images/museum.jpg" alt="placeholder">
     </picture>
   </header>
